@@ -1,0 +1,54 @@
+._secnaomi{
+
+    padding: 30px;
+    width: 100%;
+}
+._secnaomi-foto{
+
+    border-radius: 50%;
+}
+
+._secnaomi-link{
+
+    font-family:$playfair ;
+    font-size: 20px;
+    color: $fuzzywuzzy;
+
+}
+._secnaomi-parrafo{
+line-height: 45px;
+}
+
+h3{
+ 
+    font-family:$playfair ;
+    font-size: 25px;
+    font-weight: $blackitalic;
+    text-shadow: 1px 1px 1px $nickel;
+    
+}
+
+@media screen and (max-width: 780px){
+    ._secnaomi-parrafo{
+      display:none;
+      margin-top: 0px !important;
+      text-align: center;
+    }
+
+    ._secnaomi-link{
+
+        font-family:$playfair ;
+        font-size: 30px;
+        color: $fuzzywuzzy;
+        text-align: center;
+    
+    }
+    h3{
+ 
+        font-family:$playfair ;
+        font-size: 40px;
+        font-weight: $blackitalic;
+        text-shadow: 1px 2px 1px $nickel;
+        
+    }
+}
